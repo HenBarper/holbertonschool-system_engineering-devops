@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+i=1
+while [ $i -le 10 ]
+do
+	if [ $i -eq 4 ]
+	then
+		printf "%s\n" "bad luck"
+	elif [ $i -eq 8 ]
+	then
+		printf "%s\n" "good luck"
+	else
+		printf "%s\n" "Best School"
+	fi
+	((i++))
+done
