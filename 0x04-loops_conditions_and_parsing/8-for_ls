@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 #display; cd contents, in list format, only first part name.
-i=$(ls | cut -d- -f2)
+i=$(ls)
 for x in $i
 do
-	printf "%s\n" "$x"
+	file=$(echo "$x" | cut -d- -f2)
+	printf "%s\n" "$file"
 done
