@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#Write a Bash script that loops from 1 to 10 and: 'good luck' on 4, 'bad luck' on 8, 'Best School' on others.
 i=1
 while [ $i -le 10 ]
 do
