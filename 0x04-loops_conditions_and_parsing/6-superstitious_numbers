@@ -13,6 +13,7 @@ do
 	elif [ $i -eq 17 ]
 	then
 		printf "%s\n" "bad luck from Italy"
+	else
 	fi
 	((i++))
 done
