@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 #display; cd contents, in list format, only first part name.
-i=0
-for i in $(ls | cut -d- -f2)
+i=$(ls | cut -d- -f2)
+for x in $i
 do
-	printf "%s\n" "$i"
-	((i++))
+	printf "%s\n" "$x"
 done
