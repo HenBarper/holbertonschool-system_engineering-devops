@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 #Write a Bash script that displays its own PID.
-x=grep -f 7-highlander | pkill -9 $x
+x=0
+grep -f 7-highlander=$x | pkill -9 $x
