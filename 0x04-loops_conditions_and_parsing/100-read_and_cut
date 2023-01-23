@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#comment
+i=0
+while [ $i -lt 1 ]
+do
+	cat /etc/passwd | cut -d: -f1,4,6
+	((i++))
+done	
